@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the saved model
-with open('model.pkl', 'rb') as file:
+with open('iris.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
